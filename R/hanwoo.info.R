@@ -6,7 +6,7 @@
 #' @export
 #' @import XML
 #' @examples
-#' hanwoo.info("002083191603")
+#' hanwoo.info(cattle="002083191603")
 
 hanwoo.info<-function(cattle){
   

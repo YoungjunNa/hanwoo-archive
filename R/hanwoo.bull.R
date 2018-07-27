@@ -6,7 +6,7 @@
 #' @export
 #' @import XML
 #' @examples
-#' hanwoo.bull(1080)
+#' hanwoo.bull(KPN=1080)
 #' 
 
 hanwoo.bull<-function(KPN){
