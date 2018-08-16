@@ -1,4 +1,4 @@
-#' hanwoo.bull
+#' hanwoo_bull
 #'
 #' This function scraping the bull information of Hanwoo from data.go.kr.
 #' @param KPN KPN number of a bull you get the inform.
@@ -6,10 +6,9 @@
 #' @export
 #' @import XML
 #' @examples
-#' hanwoo.bull(KPN=1080)
-#' 
+#' hanwoo_bull(KPN=1080)
 
-hanwoo.bull<-function(KPN){
+hanwoo_bull<-function(KPN){
   
   # package
   stopifnot(require(XML))

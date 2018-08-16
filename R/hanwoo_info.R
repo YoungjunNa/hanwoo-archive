@@ -1,4 +1,4 @@
-#' hanwoo.info
+#' hanwoo_info
 #'
 #' This function scraping the information of Hanwoo from data.go.kr. Please get your API key and request for applicate at data.go.kr.
 #' @param cattle Number of cattle you get the inform.
@@ -6,9 +6,9 @@
 #' @export
 #' @import XML
 #' @examples
-#' hanwoo.info(cattle="002083191603")
+#' hanwoo_info(cattle="002083191603")
 
-hanwoo.info<-function(cattle){
+hanwoo_info<-function(cattle){
   
   # package
   stopifnot(require(XML))
